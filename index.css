@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+section.left {
+    display: flex;
+    height: 100vh;
+    width: auto;
+}
+
+.trivobackground{
+    width: 100%;
+    height: 100%;
+}
+
+section.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+section.right > form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.note {
+    color: #949494;
+}
+
+.maininput {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.maininput span {
+    color: red;
+}
+
+input {
+    padding: 16px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+[type="submit"] {
+    color: white;
+    background: #4443FF;
+box-shadow: 9px 9px 10px rgba(114, 113, 255, 0.25);
+border-radius: 8px;
+border: none;
+cursor: pointer;
+}
+
+
+[type="button"] {
+    padding: 14px;
+    color: #4443FF;
+    background: #FFFFFF;
+border: 1px solid #949494;
+border-radius: 8px;
+}
+
+p {
+    justify-content: center;
+    text-align: center;
+}
